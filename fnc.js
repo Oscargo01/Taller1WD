@@ -19,6 +19,7 @@ function init(){
     var ocho = document.getElementById('ocho');
     var nueve = document.getElementById('nueve');
     var cero = document.getElementById('cero');
+    var punto = document.getElementById('punto');
   }
   //Eventos de click
   uno.onclick = function(e){
@@ -50,6 +51,9 @@ nueve.onclick = function(e){
 }
 cero.onclick = function(e){
     resultado.textContent = resultado.textContent  + "0";
+}
+punto.onclick = function(e){
+    resultado.textContent = resultado.textContent  + ".";
 }
 reset.onclick = function(e){
     clear();
