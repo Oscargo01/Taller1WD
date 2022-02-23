@@ -53,7 +53,7 @@ cero.onclick = function(e){
     resultado.textContent = resultado.textContent  + "0";
 }
 punto.onclick = function(e){
-    resultado.textContent = resultado.textContent  + ",";
+    resultado.textContent = resultado.textContent  + ".";
 }
 reset.onclick = function(e){
     clear();
