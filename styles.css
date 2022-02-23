@@ -1,0 +1,21 @@
+  .calculadora td button{
+    display:block;
+    width:70px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+
+  }
+
+  #resultado{
+    display:block;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width:330px;
+    height: 30px;
+    line-height: 30px;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+  }
